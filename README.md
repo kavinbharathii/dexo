@@ -10,7 +10,7 @@ This will clone the project to your local machine. Once the installation is comp
 filepath of your local machine.
 
 ##Add to path:
-After installation, open the PATH settings and update your `PATH1 variable by adding the directory path to the `webdev` folder.
+After installation, open the PATH settings and update your `PATH` variable by adding the directory path to the `webdev` folder.
 
 ##Usage:
 The `webdev` tool can be used by the following command
