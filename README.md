@@ -2,6 +2,7 @@
 A command line tool for creating boilerplate files for web development.
 
 ##Installation:
+
 Open your terminal and enter
 ```bash
 $ git clone https://github.com/kavinbharathii/webdev
@@ -13,6 +14,7 @@ filepath of your local machine.
 After installation, open the PATH settings and update your `PATH` variable by adding the directory path to the `webdev` folder.
 
 ##Usage:
+
 The `webdev` tool can be used by the following command
 ```bash
 $ webdev {project name}
