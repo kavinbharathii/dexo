@@ -18,7 +18,7 @@ After installation, open the **PATH** settings and update your `PATH` variable b
 
 The `webdev` tool can be used by the following command
 ```bash
-$ webdev {project name}
+$ dev {project name}
 ```
 This will create a folder with the project name and add the boilerplate files to the project. The files that'll be generated are,
 - index.html
