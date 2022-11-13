@@ -3,18 +3,17 @@
 
 import sys
 import os
-import rich
 
 # ------------------------------------------------------------------------------------------------------------------- #
 
 project_name = sys.argv[1]
-rich.print(f"[blue]Creating[/blue]: [bold green]{project_name}[/bold green]")
+print(f"Creating: {project_name}")
 os.chdir(os.getcwd())
 
 try:
     os.mkdir(project_name)
 except OSError:
-    rich.print(f"[bold red]Error[/bold red]: [bold blue]Project {project_name} already exists[/bold blue]")
+    print(f"Error: Project {project_name} already exists")
     exit()
 
 # ------------------------------------------------- create html file ------------------------------------------------- #
@@ -40,7 +39,7 @@ with open(f'{project_name}/index.html', 'w') as html:
     )
     html.close()
 
-rich.print(f"[blue]Created[/blue]: [bold red]index.html[/bold red]")
+print("Created: index.html")
 
 # ------------------------------------------------- create css file ------------------------------------------------- #
 with open(f'{project_name}/style.css', 'w') as css:
@@ -76,7 +75,7 @@ main {
     )
     css.close()
 
-rich.print(f"[blue]Created[/blue]: [bold blue]style.css[/bold blue]")
+print("Created: style.css")
 
 # ------------------------------------------------- create js file ------------------------------------------------- #
 with open(f'{project_name}/app.js', 'w') as js:
@@ -88,7 +87,7 @@ const dev = document.getElementById('dev')
     )
     js.close()
 
-rich.print(f"[blue]Created[/blue]: [bold yellow]app.js[/bold yellow]")
+print(f"Created: app.js")
 
-rich.print("[bold green]Completed...[/bold green]")
+print("Completed...")
 # ------------------------------------------------------------------------------------------------------------------- #
