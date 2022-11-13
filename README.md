@@ -1,5 +1,5 @@
 <h1 align=center> Webdev </h1>
-A command line tool for creating boilerplate files for web development.
+*A command line tool for creating boilerplate files for web development.*
 
 ## Installation:
 
