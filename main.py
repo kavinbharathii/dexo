@@ -89,5 +89,23 @@ const dev = document.getElementById('dev')
 
 print(f"Created: app.js")
 
+
+# ------------------------------------------------- create README file ------------------------------------------------- #
+with open(f'{project_name}/README.md', 'w') as readme:
+    readme.write(
+f'''
+###{project_name.capitalize()}
+
+<!-- {project_name} README -->
+Author: 
+Version: 1.0.0
+Description: {project_name}
+'''
+    )
+    readme.close()
+
+print(f"Created: readme.md")
+
+
 print("Completed...")
 # ------------------------------------------------------------------------------------------------------------------- #
