@@ -24,5 +24,6 @@ This will create a folder with the project name and add the boilerplate files to
 - index.html
 - style.css
 - app.js
+- README.md
 
 Contributions are welcome!
