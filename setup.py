@@ -8,13 +8,13 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name='dexo',
-    version='3.3',
+    version='3.4',
     author='Kavin Bharathi',
     author_email='r.m.kavinbharathi@gmail.com',
     description='A cli for a quick and easy web dev kit',
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = 'https://github.com/kavinbharathii/webdev',
+    url = 'https://github.com/kavinbharathii/dexo',
     packages = find_packages(),
     install_requires=[
         requirements
