@@ -1,29 +1,35 @@
-<h1 align=center> Webdev </h1>
 
-*A command line tool for creating boilerplate files for web development.*
+# Dexo
+
+A python based command line utility for quick and easy
+web development project initialisation.
 
 ## Installation:
+To install dexo on windows,
 
-Open your terminal and enter
-```bash
-$ git clone https://github.com/kavinbharathii/webdev
 ```
-This will clone the project to your local machine. Once the installation is complete, update the `webdev.bat` file by changing the file path given to the correct 
-filepath of your local machine.
+> pip install dexo
+```
 
-## Add to path:
-After installation, open the **PATH** settings and update your `PATH` variable by adding the directory path to the `webdev` folder.
+and to install dexo on unix systems
+
+```
+$ pip3 install dexo
+```
 
 ## Usage:
-
-The `webdev` tool can be used by the following command
-```bash
-$ dev {project name}
+To create a new project
 ```
-This will create a folder with the project name and add the boilerplate files to the project. The files that'll be generated are,
+> dexo { project_name }
+```
+and you can give project_name as your project's name.
+dexo creates the following files for you,
+
 - index.html
 - style.css
 - app.js
 - README.md
 
-Contributions are welcome!
+## Links
+
+[github](https://github.com/kavinbharathii/webdev)
